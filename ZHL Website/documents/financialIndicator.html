@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1">
+		
+		<title>ZHl|Website</title>
+
+		<!-- Loading third party fonts -->
+		<link href="http://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700|" rel="stylesheet" type="text/css">
+		<link href="fonts/font-awesome.min.css" rel="stylesheet" type="text/css">
+		<link href="fonts/lineo-icon/style.css" rel="stylesheet" type="text/css">
+
+		<!-- Loading main css file -->
+		<link rel="stylesheet" href="style.css">
+		
+		<!--[if lt IE 9]>
+		<script src="js/ie-support/html5.js"></script>
+		<script src="js/ie-support/respond.js"></script>
+		<![endif]-->
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		
+		<style>
+
+				/* Clear floats after the columns */
+				.row:after {
+				content: "";
+				display: table;
+				clear: both;
+				}
+
+				/* Closable button inside the container tab */
+				.closebtn {
+						float: right;
+						color: white;
+						font-size: 35px;
+						cursor: pointer;
+						}
+						
+						
+				.mySlides {display:none;}
+						
+		</style>
+      
+	</head>
+
+
+	<body background="backgroung.jpg">
+		
+		<div id="site-content">
+			<header class="site-header">
+				<div class="top-header">
+					<div class="container">
+						<a href="index.html" id="branding">
+							<img src="images/logo.png" alt="Company Name" class="logo">
+							<div class="logo-text">
+								<h1 class="site-title">Zimre Holdings Limited</h1>
+								<small class="description">Security Growth and Profitability</small>
+							</div>
+						</a> <!-- #branding -->
+					
+						<div class="right-section pull-right">
+							<a href="#" class="phone"><img src="images/icon-phone.png" class="icon">+263-4-772963</a>
+					
+							<form action="#" class="search-form">
+								<input type="text" placeholder="Search...">
+								<button type="submit"><img src="images/icon-search.png" alt=""></button>
+							</form>
+						</div>
+					</div> <!-- .container -->
+				</div> <!-- .top-header -->
+
+				
+				<div class="bottom-header">
+					<div class="container">
+						<div class="main-navigation">
+							<button type="button" class="menu-toggle"><i class="fa fa-bars"></i></button>
+							<ul class="menu">
+							    <li class="menu-item"><a href="index.html">Home</a></li>
+								<li class="menu-item"><a href="about.html">About us</a></li>
+								<li class="menu-item"><a href="#">Business Areas</a></li>
+								<li class="menu-item"><a href="#">News</a></li>
+								<li class="menu-item"><a href="contact.html">Contact</a></li>
+							</ul> <!-- .menu -->
+						</div> <!-- .main-navigation -->
+						
+						<div class="social-links">
+							<a href="#"><i class="fa fa-facebook"></i></a>
+							<a href="#"><i class="fa fa-twitter"></i></a>
+							
+						</div>
+						
+						<div class="mobile-navigation"></div>
+					</div>
+				</div>
+
+						</div> <!-- .main-navigation -->
+						
+						<div class="social-links">
+							<a href="#"><i class="fa fa-facebook"></i></a>
+							<a href="#"><i class="fa fa-twitter"></i></a>
+							
+						</div>
+						
+						<div class="mobile-navigation"></div>
+					</div>
+				</div>
+				
+			</header> 
+
+
+			
+			
+					<div class="hero hero-slider">
+				<ul class="slides">
+					<li data-bg-image="images/financials1.jpg">
+						<div class="container">
+							<div class="slide-content">
+								<h2 class="slide-title">Financials <strong>Year 2017</strong></h2>
+								<p>Brief of the year financials</p>
+								<a href="#" class="button">Download</a>
+							</div>
+						</div>
+					</li>
+					<li data-bg-image="images/financials2.jpg">
+						<div class="container">
+							<div class="slide-content">
+								<h2 class="slide-title">Financials <strong>Year 2017</strong></h2>
+								<p>Brief of the year financials</p>
+								<a href="#" class="button">Download</a>
+							</div>
+						</div>
+					</li>
+					<li data-bg-image="images/financials3.jpg">
+						<div class="container">
+							<div class="slide-content">
+								<h2 class="slide-title" >Financials <strong>Year 2017</strong></h2>
+								<p>Brief of the year financials</p>
+								<a href="#" class="button">Download</a>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div> <!-- .hero-slider -->
+			
+			<main class="main-content">
+			
+			<div class="breadcrumbs">
+					<div class="container">
+					    
+						<h3><a href="board.html">Investors and Media</a>
+						<a target="_blank" href="https://www.zse.co.zw/index.php/companies">ZHL on the ZSE</a>
+					<span>Financial Reports</span></h3>
+					</div>
+					
+				</div>
+			
+				<div class="page">
+					<div class="container">
+					<img class="mySlides" src="images/financials1.jpg" style="width:70%">
+						<h3 class="entry-title">Financial Indicators</h3>
+
+								<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+								  <div id="chart_div"></div>
+											<br/>
+										
+											<script type="text/javascript">
+											google.charts.load('current', {'packages':['bar']});
+													google.charts.setOnLoadCallback(drawChart);
+	
+													function drawChart() {
+														var data = google.visualization.arrayToDataTable([
+																['Year', 'Sales', 'Expenses', 'Profit'],
+																		['2014', 1000, 400, 200],
+																		['2015', 1170, 460, 250],
+																		['2016', 660, 1120, 300],
+																		['2017', 1030, 540, 350]
+																			]);
+	
+													var options = {
+															chart: {
+													title: 'Company Performance',
+													subtitle: 'Sales, Expenses, and Profit: 2014-2017',
+																},
+															bars: 'horizontal', // Required for Material Bar Charts.
+													hAxis: {format: 'decimal'},
+														height: 400,
+															colors: ['#1b9e77', '#d95f02', '#7570b3']
+																	};
+
+															var chart = new google.charts.Bar(document.getElementById('chart_div'));
+
+														chart.draw(data, google.charts.Bar.convertOptions(options));
+
+											var btns = document.getElementById('btn-group');
+
+													btns.onclick = function (e) {
+
+											if (e.target.tagName === 'BUTTON') {
+													options.hAxis.format = e.target.id === 'none' ? '' : e.target.id;
+													chart.draw(data, google.charts.Bar.convertOptions(options));
+																	}
+															}
+																}
+												</script>
+
+						<h1>My Web Page</h1>
+
+
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+       <div id="chart_div" style="width: 900px; height: 500px;"></div>
+	   
+	   
+<script type="text/javascript">
+// Load google charts
+google.charts.load('current', {'packages':['corechart']});
+google.charts.setOnLoadCallback(drawChart);
+
+// Draw the chart and set the chart values
+function drawChart() {
+  var data = google.visualization.arrayToDataTable([
+  ['Task', 'Hours per Day'],
+  ['Work', 8],
+  ['Eat', 2],
+  ['TV', 4],
+  ['Gym', 2],
+  ['Sleep', 8]
+]);
+
+  // Optional; add a title and set the width and height of the chart
+  var options = {'title':'My Average Day', 'width':550, 'height':400};
+
+  // Display the chart inside the <div> element with id="piechart"
+  var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+  chart.draw(data, options);
+}
+</script>
+   	
+
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+							</div>
+						</div>
+					</div>
+				</div> <!-- .page -->
+			</main>
+
+			<div class="site-footer">
+				
+				<div class="bottom-footer">
+					<div class="container">
+						<nav class="footer-navigation">
+							<a href="#">Home</a>
+							<a href="#">About Us</a>
+							<a href="#">Team</a>
+							<a href="#">News</a>
+							<a href="#">Contact</a>
+						</nav>
+
+						<div class="colophon">Copyright 2018 Zimre Holdings Limited. All rights reserved.</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script src="js/jquery-1.11.1.min.js"></script>
+		<script src="http://maps.google.com/maps/api/js?sensor=false&amp;language=en"></script>
+		<script src="js/plugins.js"></script>
+		<script src="js/app.js"></script>
+		
+	</body>
+
+</html>

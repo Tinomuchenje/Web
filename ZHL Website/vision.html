@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1">
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		<!-- Loading third party fonts -->
+		<link href="http://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700|" rel="stylesheet" type="text/css">
+		<link href="fonts/font-awesome.min.css" rel="stylesheet" type="text/css">
+		<link href="fonts/lineo-icon/style.css" rel="stylesheet" type="text/css">
+
+		<!-- Loading main css file -->
+		<link rel="stylesheet" href="style.css">
+		
+		<!--[if lt IE 9]>
+		<script src="js/ie-support/html5.js"></script>
+		<script src="js/ie-support/respond.js"></script>
+		<![endif]-->
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		<style>
+               * {box-sizing: border-box}
+                 body {font-family: Verdana, sans-serif; margin:0}
+                .mySlides {display: none}
+                 img {vertical-align: middle;}
+
+              /* Slideshow container */
+                 .slideshow-container {
+					max-width: 1000px;
+					position: relative;
+					margin: auto;
+					}
+
+				/* Next & previous buttons */
+				.prev, .next {
+							cursor: pointer;
+							position: absolute;
+							top: 50%;
+							width: auto;
+							padding: 16px;
+							margin-top: -22px;
+							color: white;
+							font-weight: bold;
+							font-size: 18px;
+							transition: 0.6s ease;
+							border-radius: 0 3px 3px 0;
+							}
+
+						/* Position the "next button" to the right */
+						.next {
+								right: 0;
+							border-radius: 3px 0 0 3px;
+								}
+
+						/* On hover, add a black background color with a little bit see-through */
+							.prev:hover, .next:hover {
+							background-color: rgba(0,0,0,0.8);
+							}
+
+							/* Caption text */
+							.text {
+									color: #f2f2f2;
+									font-size: 15px;
+									padding: 8px 12px;
+									position: absolute;
+									bottom: 8px;
+									width: 100%;
+									text-align: center;
+									}
+
+								/* Number text (1/3 etc) */
+										.numbertext {
+											color: #f2f2f2;
+											font-size: 12px;
+											padding: 8px 12px;
+											position: absolute;
+											top: 0;
+											}
+
+											/* The dots/bullets/indicators */
+											.dot {
+											cursor: pointer;
+											height: 15px;
+											width: 15px;
+											margin: 0 2px;
+											background-color: #bbb;
+											border-radius: 50%;
+											display: inline-block;
+											transition: background-color 0.6s ease;
+									}
+
+									.active, .dot:hover {
+									background-color: #717171;
+									}
+
+									/* Fading animation */
+									.fade {
+									-webkit-animation-name: fade;
+									-webkit-animation-duration: 1.5s;
+									animation-name: fade;
+									animation-duration: 1.5s;
+									}
+
+									@-webkit-keyframes fade {
+									from {opacity: .4} 
+									to {opacity: 1}
+											}
+
+								@keyframes fade {
+									from {opacity: .4} 
+									to {opacity: 1}
+											}
+
+							/* On smaller screens, decrease text size */
+								@media only screen and (max-width: 300px) {
+							  .prev, .next,.text {font-size: 11px}
+					}
+							</style>
+							
+		<title>ZHl|Website</title>
+
+		<!-- Loading third party fonts -->
+		<link href="http://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700|" rel="stylesheet" type="text/css">
+		<link href="fonts/font-awesome.min.css" rel="stylesheet" type="text/css">
+		<link href="fonts/lineo-icon/style.css" rel="stylesheet" type="text/css">
+
+		<!-- Loading main css file -->
+		<link rel="stylesheet" href="style.css">
+		
+		<!--[if lt IE 9]>
+		<script src="js/ie-support/html5.js"></script>
+		<script src="js/ie-support/respond.js"></script>
+		<![endif]-->
+     
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	</head>
+
+
+	<body>
+		
+		<div id="site-content">
+			<header class="site-header">
+				<div class="top-header">
+					<div class="container">
+						<a href="index.html" id="branding">
+							<img src="images/logo.png" alt="Company Name" class="logo">
+							<div class="logo-text">
+								<h1 class="site-title">Zimre Holdings Limited</h1>
+								<small class="description">Security Growth and Profitability</small>
+							</div>
+						</a> <!-- #branding -->
+					
+						<div class="right-section pull-right">
+							<a href="#" class="phone"><img src="images/icon-phone.png" class="icon">+263-4-772963</a>
+					
+							<form action="#" class="search-form">
+								<input type="text" placeholder="Search...">
+								<button type="submit"><img src="images/icon-search.png" alt=""></button>
+							</form>
+						</div>
+					</div> <!-- .container -->
+				</div> <!-- .top-header -->
+
+				
+				<div class="bottom-header">
+					<div class="container">
+						<div class="main-navigation">
+							<button type="button" class="menu-toggle"><i class="fa fa-bars"></i></button>
+							<ul class="menu">
+							   <li class="menu-item"><a href="index.html">Home</a></li>
+								<li class="menu-item"><a href="about.html">About us</a></li>
+								<li class="menu-item"><a href="business.html">Business Areas</a></li>
+								<li class="menu-item"><a href="investors.html">Investment and Media</a></li>
+								<li class="menu-item"><a href="contact.html">Contact</a></li>
+							</ul> <!-- .menu -->
+						</div> <!-- .main-navigation -->
+						
+						<div class="social-links">
+							<a href="#"><i class="fa fa-facebook"></i></a>
+							<a href="#"><i class="fa fa-twitter"></i></a>
+							
+						</div>
+						
+						<div class="mobile-navigation"></div>
+					</div>
+				</div>
+
+						</div> <!-- .main-navigation -->
+						
+						<div class="social-links">
+							<a href="#"><i class="fa fa-facebook"></i></a>
+							<a href="#"><i class="fa fa-twitter"></i></a>
+							
+						</div>
+						
+						<div class="mobile-navigation"></div>
+					</div>
+				</div>
+				
+			</header> <!-- .site-header -->
+
+
+			<main class="main-content">
+				<div class="breadcrumbs">
+					<div class="container">
+					    
+						<h4><a href="board.html">Board of Directors</a>
+						<a href="vision.html">Vision, Mission, Values</a>
+						<span></span></h4>
+					</div>
+					
+				</div>
+
+				<!--<div class="page">
+					<div class="fullwidth-block">
+						<div class="container">
+							
+							
+						</div> <!-- .container -->
+					</div>  
+
+						<div class="slideshow-container">
+
+									<div class="mySlides fade">
+										<div class="numbertext"></div>
+										<img src="images/val.jpg" width="700" height="" align="right" class="w3-circle" alt="" style="width:100%>
+										<div class="text"></div>
+									</div>
+
+
+						</div>
+						
+						<br>
+
+							<!-- <div style="text-align:center">
+								<span class="dot" onclick="currentSlide(1)"></span> 
+								<span class="dot" onclick="currentSlide(2)"></span> 
+								<span class="dot" onclick="currentSlide(3)"></span> 
+							</div>-->
+
+								<script>
+											var slideIndex = 1;
+											showSlides(slideIndex);
+
+											function plusSlides(n) {
+												showSlides(slideIndex += n);
+												}
+
+											function currentSlide(n) {
+													showSlides(slideIndex = n);
+												}
+
+												function showSlides(n) {
+													var i;
+													var slides = document.getElementsByClassName("mySlides");
+													var dots = document.getElementsByClassName("dot");
+													if (n > slides.length) {slideIndex = 1}    
+													if (n < 1) {slideIndex = slides.length}
+													for (i = 0; i < slides.length; i++) {
+													slides[i].style.display = "none";  
+														}
+													for (i = 0; i < dots.length; i++) {
+															dots[i].className = dots[i].className.replace(" active", "");
+														}	
+																			slides[slideIndex-1].style.display = "block";  
+														dots[slideIndex-1].className += " active";
+																}
+								</script>
+							<!-- .hero-slider -->
+
+					
+					
+					<main class="main-content">
+				<div class="fullwidth-block greet-section">
+					<div class="container">
+						<h2 class="section-title">What we believe</h2>
+						<small class="section-subtitle"></small>
+
+						<div class="row">
+							<div class="col-md-4">
+								<div class="feature">
+								   
+									<i class=""><img src="images/vision.png" class="icon"> </i>
+									<h3 class="feature-title">Vision</h3>
+									<p>To be a highly prized diversified investment Group.</p>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="feature">
+									<i class=""><img src="images/mission.png" class="icon"></i>
+									<h3 class="feature-title">Mission</h3>
+									<p>Using our financial services capabilities, we prudently manage risks and optimize resources</p>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="feature">
+									<i class=""><img src="images/values.png" class="icon"></i>
+									<h3 class="feature-title">Values</h3>
+									<p> Team Work | Integrity | Respect | Excellence | Commitment</p>
+								</div>
+							</div><!-- .row -->
+
+						<!-- <div class="text-center">
+							<p>Sollicitudin sit tortor pellentesque. <a href="#">Read more</a></p>
+						</div>
+					</div>  
+				   </div>  
+				
+				.fullwidth-block -->
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+			 
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			</main> 
+               
+	                  <div class="site-footer">
+				
+				<div class="bottom-footer">
+					<div class="container">
+						<nav class="footer-navigation">
+							<a href="#">Home</a>
+							<a href="#">About Us</a>
+							<a href="#">Team</a>
+							<a href="#">News</a>
+							<a href="#">Contact</a>
+						</nav>
+
+						<div class="colophon">Copyright 2018 Zimre Holdings Limited. All rights reserved.</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script src="js/jquery-1.11.1.min.js"></script>
+		<script src="http://maps.google.com/maps/api/js?sensor=false&amp;language=en"></script>
+		<script src="js/plugins.js"></script>
+		<script src="js/app.js"></script>
+		
+	</body>
+
+</html>
